@@ -1,0 +1,23 @@
+log in en el nav
+                * usuario
+                * contraseña
+
+contacto:
+            * dirección
+
+hacenos tu pedido:
+                    * nombre
+                    * apellido
+                    * teléfono
+                    * mail
+                    * radius para proveedor/cliente
+                    * text area
+                    * desplegable:
+                                    # productos disponibles
+                    * formas de pago:
+                                        # mercado pago (alias)
+                                        # qr
+                                        # transferencia
+                                        # tj crédito
+
+cambiar imagen

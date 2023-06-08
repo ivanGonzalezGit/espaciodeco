@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    /*background-image: url("imagenes/fondo_pagina.jpeg");*/
+    background: linear-gradient(rgb(57, 48, 39), rgb(250, 253, 214));
+    
+}
+
+#contenedor{
+    width: 900px;
+    height: 750px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(250, 253, 214);
+}
+
+header h1{
+    position: absolute;
+    top: 50px;
+    left:530px;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(17, 122, 87) 2px 0px 5px;
+}
+
+header p {
+    padding: 2px;
+}
+
+#nombre_contacto{
+    font-size: 20px;
+}
+
+#mail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#foto_logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 225px;
+    opacity: 0.7;
+}
+
+#contacto_header{
+    float: right;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: #fafdd6;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(250, 253, 214);
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: rgb(100, 88, 72);
+    float: left;
+}
+
+nav li{
+    display: inline-block;
+    color:rgb(255, 255, 129);
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border:rgb(255, 255, 129) solid 1px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav li:hover {
+    color: rgb(120, 0, 0);
+    background: #ffff81;
+    opacity: 0.5;
+    border-color: rgb(120. 0, 0);
+}
+
+#contenedor_nav{
+    margin-left: 30px;
+}
+
+.desplegable {
+    display: none;
+
+}
+
+.desplegable:hover {
+    display: block;
+    float: left;
+}
+
+aside{
+    width: 20%;
+    height: 390px;
+    float: left;
+    background: #5d725d;
+}
+
+#contenedor_aside{
+    margin-top: 25px;
+}
+
+aside li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: #223f26 1px 0px 3px;
+    margin: 5px 20px;
+}
+
+aside li:hover{
+    color: rgb(120, 0, 0);
+    font-size: 25px;
+}
+
+section{
+    width: 80%;
+    height: 390px;
+    float: left;
+    background: #b7d2b6;
+}
+
+#ofertas{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#contenedor_section{
+    width: 100%;
+    height: 340px;
+    margin-left: 10px;
+}
+
+section article{
+    display: inline-block;
+    width: 150px;
+    height: 170px;
+    margin: 30px 10px 10px 10px;
+    text-align: center;
+}
+
+.botones_ofertas{
+    width: 150px;
+    height: 150px;
+    border: rgb(250, 253, 214) 2px solid;
+    border-radius: 10px;
+    box-shadow: rgb(150,150,150) 5px 5px 10px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.botones_ofertas:hover {
+    transform: scale(1.07);
+    opacity: 0.5;
+    border-color: rgb(120, 0, 0);
+    box-shadow: rgb(250,253,214) 5px 5px 5px;
+}
+
+article div {
+    width: 150px;
+    height: 20;
+    margin-top: 10px;
+    color:rgb(250, 253, 214);
+    background: #000;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    color:beige;
+    background: rgb(57, 48, 39);
+    float: left;
+}
+
+footer div{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.datos{
+    display: inline-block;
+}
+
+footer a, footer p, footer h4{
+    color:rgb(250, 253, 214);
+    font-family: 'roboto', sans-serif;
+    font-size: 10px;
+}
